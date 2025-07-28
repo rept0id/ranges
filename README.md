@@ -1,1 +1,30 @@
 # ranges
+
+```yml
+  Ranges:
+    C:
+      int8:
+        min: -128
+        max: 127
+      uint8:
+        min: 0
+        max: 255
+      int16:
+        min: -32768
+        max: 32767
+      uint16:
+        min: 0
+        max: 65535
+      int32:
+        min: -2147483648
+        max: 2147483647
+      uint32:
+        min: 0
+        max: 4294967295
+      int64:
+        min: -9223372036854775808
+        max: 9223372036854775807
+      uint64:
+        min: 0
+        max: 18446744073709551615
+```
